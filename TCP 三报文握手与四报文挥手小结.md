@@ -1,20 +1,15 @@
 # TCP 三报文握手与四报文挥手小结
 
-> 马上就是面试季了，我得准备一些常见的面试考题总结一下，对自己的一些网络方面的知识点进行查漏补缺。
->
->  
->
 > **我们平常说的三次握手，四次挥手** 其实是不准确的，因为英语原文中 Handshake 就是用来形容这一次「连接」的过程，所以其实 **只握了一次手**，但是这次握手需要三次报文传递成功才能算完成。
 >
 > *以上参见《计算机网络》谢希仁（第七版）*
-
 
 
 ## 三报文握手
 
 ### 图示：
 
-![三报文握手](http://rpzoss.oss-cn-chengdu.aliyuncs.com/tmyBlog/2020-02-18-082252.png)
+![三报文握手](http://rpzoss.oss-cn-chengdu.aliyuncs.com/tmyBlog/2020-02-18-090551.png)
 
 ### 过程描述：
 
@@ -77,7 +72,7 @@
 
 ### 图示：
 
-![四报文挥手](https://rpzoss.oss-cn-chengdu.aliyuncs.com/tmyBlog/2020-02-18-082220.png)
+![四报文挥手](http://rpzoss.oss-cn-chengdu.aliyuncs.com/tmyBlog/2020-02-18-090553.png)
 
 ### 过程描述：
 
@@ -148,5 +143,4 @@
   \lim\limits_{t_a\to MSL}
   $$
 
--  $ t_b $ 是下一次服务端发来的断开请求的传递最大时间，即一个 MSL
-
+- $ t_b $ 是下一次服务端发来的断开请求的传递最大时间，即一个 MSL
